@@ -140,6 +140,24 @@
                     ]
                 }
             ]
+        },
+        {
+            "label": "General",
+            "content":
+            [
+                {
+                    "label": "debounce",
+                    "content":
+                    [
+                        {
+                            "label": "Debounce",
+                            "type": "range",
+                            "options": [0, 5],
+                            "content": ["id_debounce_time", 4, 1]
+                        }
+                    ]
+                }
+            ]
         }
     ],
     "customKeycodes": [
@@ -309,5 +327,6 @@
         ]
     }
 }
+
 
 
