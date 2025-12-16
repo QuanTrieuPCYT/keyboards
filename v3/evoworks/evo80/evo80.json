@@ -152,7 +152,7 @@
                         {
                             "label": "Debounce",
                             "type": "range",
-                            "options": [0, 255],
+                            "options": [0, 5],
                             "content": ["id_debounce_time", 0, 1]
                         }
                     ]
@@ -327,5 +327,6 @@
         ]
     }
 }
+
 
 
