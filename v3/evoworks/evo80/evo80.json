@@ -166,7 +166,7 @@
                             "content": ["id_mac_mode", 0, 3]
                         },
                         {
-                            "showIf": "{id_mac_mode} != 0",
+                            "showIf": "{id_mac_mode} == 0",
                             "label": "Windows key Lock",
                             "type": "toggle",
                             "content": ["id_win_lock", 0, 4]
@@ -343,4 +343,5 @@
         ]
     }
 }
+
 
