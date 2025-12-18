@@ -146,7 +146,7 @@
             "content":
             [
                 {
-                    "label": "debounce",
+                    "label": "extras",
                     "content":
                     [
                         {
@@ -154,6 +154,22 @@
                             "type": "range",
                             "options": [0, 5],
                             "content": ["id_debounce_time", 0, 1]
+                        },
+                        {
+                            "label": "NKRO",
+                            "type": "toggle",
+                            "content": ["id_nkro_toggle", 0, 2]
+                        },
+                        {
+                            "label": "Mac Mode",
+                            "type": "toggle",
+                            "content": ["id_mac_mode", 0, 3]
+                        },
+                        {
+                            "showIf": "{id_mac_mode} != 0",
+                            "label": "Windows key Lock",
+                            "type": "toggle",
+                            "content": ["id_win_lock", 0, 4]
                         }
                     ]
                 }
@@ -327,3 +343,4 @@
         ]
     }
 }
+
