@@ -198,9 +198,9 @@
         {"name": "WLO",     "title": "Lock WIN",                                 "shortName": "QK_WLO"},
         {"name": "SIX_N",   "title": "Full-key six-key switch",                  "shortName": "SIX_N"},
         {"name": "RTOG",    "title": "Toggle led lighting on or off",            "shortName": "RGB_RTOG"},
-        {"name": "_RSV",    "title": "Reserved / No Operation",                  "shortName": "NOP"},
         {"name": "SIRI",    "title": "Call intelligent assistant",               "shortName": "SIRI"},
-        {"name": "KEY_DEB", "title": "Configure fast debounce time",             "shortName": "KEY_DEB"},
+        {"name": "_RSV",    "title": "Reserved / No Operation",                  "shortName": "NOP"},
+        {"name": "_RSV2",   "title": "Reserved / No Operation",                  "shortName": "NOP2"},
         {"name": "LG_TOG",  "title": "Toggle logo lighting on or off",           "shortName": "LG_TOG"},
         {"name": "LG_MO",   "title": "Logo Mode Next",                           "shortName": "LG_MOD"},
         {"name": "LG_MP",   "title": "Logo Mode Previous",                       "shortName": "LG_PRV"},
@@ -357,4 +357,5 @@
         ]
     }
 }
+
 
