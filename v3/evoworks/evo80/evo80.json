@@ -200,7 +200,6 @@
         {"name": "RTOG",    "title": "Toggle RGB matrix lighting",               "shortName": "RGB_RTOG"},
         {"name": "VOICE",   "title": "Trigger dictation/voice assistant",       "shortName": "VOICE"},
         {"name": "_RSV",    "title": "Reserved / No Operation",                  "shortName": "NOP"},
-        {"name": "_RSV2",   "title": "Reserved / No Operation",                  "shortName": "NOP2"},
         {"name": "LG_TOG",  "title": "Toggle RGB logo strip lighting",           "shortName": "LG_TOG"},
         {"name": "LG_MO",   "title": "Next Logo Mode",                           "shortName": "LG_MOD"},
         {"name": "LG_MP",   "title": "Previous Logo Mode",                       "shortName": "LG_PRV"},
@@ -357,3 +356,4 @@
         ]
     }
 }
+
